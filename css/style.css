@@ -17,5 +17,7 @@ p {
 }
 
 @media only screen and (orientation: portrait) { /* Для девайсів з портретним дисплеєм */
-	font-size: 200%;
+	h1, p, a {
+		font-size: 200%; /* Збільшую розмір шрифтів вдвічі */
+	}
 }
